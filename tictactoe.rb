@@ -40,6 +40,7 @@ end
 def computer_select(b)
   position = empty_positions(b).sample
   b[position] = 'O'
+  binding.pry
 end
 
 def check_winner(b)
