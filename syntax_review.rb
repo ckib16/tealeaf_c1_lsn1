@@ -1,5 +1,3 @@
-require 'pry'
-
 #Arrays
 array = ["Bob", "Joe", "Fred"] #Create array
 print array #put full array
@@ -23,7 +21,7 @@ print array
 puts
 puts "--------------------------"
 puts
-binding.pry
+
 #Hashes
 hash = {age: 41, weight: 169, height: 6.0} #Create hash with symbols
 puts hash
